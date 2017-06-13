@@ -1,0 +1,49 @@
+<section class="hero is-primary is-large header-image">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-2">
+        Hero Heading
+      </h1>
+      <h2 class="subtitle is-5">
+        Descripción del hero.
+      </h2>
+      <p>
+        <button class="button is-outlined" (click)="ClickButton()">
+            <span class="icon">
+              <i class="fa fa-download"></i> 
+            </span>
+            <span>
+              Download
+            </span>
+          </button>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="fundamentos">
+  <div class="container">
+    <div class="section-header">
+      <h2>
+        FUNDAMENTOS
+      </h2>
+    </div>
+    <div class="columns">
+      <div class="column focus-box">
+        <div class="service-icon red-icon"></div>
+        <h3 class="red-border">Vision</h3>
+        <p align="justify">{{visionText}}</p>
+      </div>
+      <div class="column focus-box">
+        <div class="service-icon green-icon "></div>
+        <h3 class="green-border">Mision</h3>
+        <p align="justify">{{misionText}}</p>
+      </div>
+      <div class="column focus-box">
+        <div class="service-icon blue-icon"></div>
+        <h3 class="blue-border">Valores</h3>
+        <p align="justify">{{valoresText}}</p>
+      </div>
+    </div>
+  </div>
+</section>

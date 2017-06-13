@@ -1,0 +1,61 @@
+@import '../../mq.sass'
+.nav
+  background-color: #fff //#383838
+  height: 100px  
+  
+.nav-left span
+  color: #000
+  font-weight: bold lighter
+  font-size: 2.09em
+  +mobile 
+  float: left
+  a img 
+  +mobile 
+    
+  p
+    margin-top: 35px
+    +mobile
+      display: none
+
+.nav-right a.button
+    margin: auto
+
+a.r-item
+  color:#C1C1C1
+  padding: 0.5rem 1.75rem
+  +mobile
+    color: gray
+    &:hover
+      background-color: #F1F1F1
+
+.nav-toggle 
+  position: relative
+  float: right
+  margin-right: 15px
+  padding: 9px 10px
+  margin-top: 30px
+  margin-bottom: 8px
+  background-color: transparent
+  background-image: none
+  border: 1px solid transparent
+  border-radius: 4px
+  span
+  background-color: #C1C1C1
+
+.nav-toggle .is-active
+  background-color: #808080 !important
+.nav-toggle .is-active span 
+  background-color: #e96656 !important
+
+.logo
+    max-height: 4rem !important
+    margin-left: 15px
+    +mobile
+      max-height: 100% !important
+      width: auto
+
+.container
+    margin-right: autos
+    margin-left: auto
+    padding-left: 15px
+    padding-right: 15px
