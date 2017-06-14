@@ -10,12 +10,14 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 //import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { HeroComponent } from './hero/hero.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HeroComponent
+    HeroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
