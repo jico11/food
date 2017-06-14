@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import {Ng2PageScrollModule} from 'ng2-page-scroll';
+//import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
@@ -22,8 +22,8 @@ import { HeroComponent } from './hero/hero.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpModule,
-    Ng2PageScrollModule.forRoot()
+    HttpModule
+    //Ng2PageScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
